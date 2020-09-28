@@ -1,6 +1,6 @@
 Package: pkdata
 Type: Package
-Title: Creates PK Data
+Title: Creates Pharmacokinetic/Pharmacodynamic (PK/PD) Data
 Version: 1.02
 Date: 2020-09-28
 Maintainer: Cole Beck <cole.beck@vumc.org>
@@ -9,9 +9,14 @@ Authors@R:
           email = "cole.beck@vumc.org",
           comment = c(ORCID = "0000-0002-6849-6255")),
     person("Leena", "Choi", role = "aut",
-          email = "naturechoi@gmail.com"))
-Description: Prepare data sets. Add more description as
-    this should be three or four sentences.
+          email = "naturechoi@gmail.com",
+          comment = c(ORCID = "0000-0002-2544-7090")))
+Description: Prepare Pharmacokinetic/Pharmacodynamic (PK/PD) data for PK/PD analyses. 
+    The `pkdata` package provides functions to creat PK/PD data to perform diverse 
+    PK/PD analyses. Especially, the package includes functions that creates PK/PD data 
+    from raw data extracted from Electronic Health Record (EHR), which can be used 
+    in several modules to perform PK/PD studies, as outlined in Choi et al. (2020). 
+    Additional functions will be added in future.
 License: GPL (>= 3)
 Depends: lubridate
 RoxygenNote: 7.1.1
